@@ -1,0 +1,6 @@
+lua
+   local button = script.Parent -- Reference to the button
+
+   button.MouseButton1Click:Connect(function() 
+       print("Button clicked!") -- Action to take when the button is clicked
+   end)
